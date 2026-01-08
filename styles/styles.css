@@ -102,11 +102,12 @@ header nav a{
     text-decoration: none;
     margin-right: 32px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 1, 0.9);
+    color:  rgba(0, 0, 0, 1);
 }
 
 header #banner{
     background-image:linear-gradient(rgba(0, 25, 49, 0.1)), url("../assets/hero-bg.png");
+    
     background-repeat: no-repeat;
     background-position: center;
     max-width:100%;
