@@ -64,14 +64,21 @@
 .heading_size_h2{
     font-size: 48px;
     line-height: 58px;
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
 }
+
+.paragraf_p{
+    color: rgba(98, 115, 130, 1);
+    line-height: 24px;
+}
+
 
 .center{
     text-align: center;
     
 }
 
-.color_primary{
+.color_primary , h4{
     color: rgba(48, 184, 104, 1);
 }
 .color_white {
@@ -82,10 +89,7 @@
     margin-top: 120px;
 }
 
-.paragraf_p{
-    color: rgba(98, 115, 130, 1);
-    line-height: 24px;
-}
+
 
 
 /* different styles */
@@ -128,6 +132,7 @@ header #banner p{
     gap: 16px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.09);
+    min-height: 300px;
     
 }
 
@@ -143,4 +148,15 @@ header #banner p{
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
+}
+
+#brain_container{
+    gap: 60px;
+}
+
+#brain_container .check{
+    display: flex;
+}
+#brain_container .flex_item{
+    justify-content:left;
 }
