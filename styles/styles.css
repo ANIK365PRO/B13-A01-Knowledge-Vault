@@ -167,3 +167,13 @@ header #banner p{
     background: rgba(247, 246, 242, 1);
     padding: 80px;
 }
+
+footer{
+    background: var(--Style, rgba(0, 25, 49, 1));
+    padding: 120px 0 30px;
+    gap: 84px;
+}
+footer nav{
+    margin-bottom: 80px;
+    margin-right: 120px;
+}
