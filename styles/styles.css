@@ -44,6 +44,7 @@
     font-weight: 600;
     cursor: pointer;
 }
+
 .btn_bg{
     border: 1px solid rgba(255, 255, 255, 1);
     background-color: rgba(0, 25, 49, 0.1);
@@ -54,6 +55,16 @@
     border-radius: 100px;
 
 }
+.btn_green:hover{
+    background-color:rgba(70, 145, 101, 0.74);
+}
+.btn_bg:hover{
+    background-color:rgba(0, 25, 49, 0.692);
+}
+.btn_white:hover{
+    background-color:rgba(255, 255, 255, 0.774)
+}
+
 .heading_weight{
     font-weight: 700;
 }
