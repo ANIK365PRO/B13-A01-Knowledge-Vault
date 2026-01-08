@@ -1,0 +1,50 @@
+
+/* shared styles */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contaniner_width{
+    width: 85%;
+    max-width: 1161px;
+    margin: 0 auto;
+}
+
+.flex_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid violet;
+}
+
+
+
+.list_style_none{
+    list-style: none;
+}
+.logo_size{
+    max-width: 139px;
+    max-height: 60px;
+}
+
+.btn_green{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(70, 145, 101, 1);
+    color: white;
+    font-weight: 600;
+}
+
+/* different styles */
+header nav{
+    padding: 16px;
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 32px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1, 0.9);
+}
