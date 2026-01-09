@@ -10,7 +10,7 @@
 
 .contaniner_width{
     width: 85%;
-    max-width: 1161px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -105,7 +105,7 @@
 
 /* different styles */
 
-header nav{
+body header nav{
     padding: 16px;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -121,6 +121,7 @@ header #banner{
     
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-width:100%;
     height: 600px;
     /* border: 1px solid rebeccapurple; */
